@@ -1,12 +1,14 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import EntradaDados from './src/Calculadora'
+import EntradaDados from './src/Calculadora';
+import Calc from './Aula04/CalculadoraClasse'
 
 export default function App() {
   return (
 
       <View style={styles.container1}>
-        <EntradaDados/>
+        <Text>Calculadora</Text>
+        <Calc/>
       </View>
  
   );
